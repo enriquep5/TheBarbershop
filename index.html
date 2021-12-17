@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text.css" href="style.css">
+    <title>The Barbershop</title>
+</head>
+
+<!-- head navigation bar thats scrolls with the page 
+-large container for the rest of the body
+-three smaller containers for each important section (news, form, schedule/map)
+-two containers in each of the 3
+-two subsections (ie: headline & subsection)
+-section 2-1 5 input fields in 1 form may need scroll property or 2 containers/divs
+-container 3: updated schedule + google maps embed (possible API)
+-->
+<body>
+
+    <!-- Navigation bar and start of main container-->
+
+<div class="main-container">
+    <div class="navbar">
+        <ul>
+            <li><img src="image.jpg"></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+
+    <!--News updates and Alerts-->
+
+    <div class="container-1">
+        <div class="news-one">
+            <div class="headline-one">
+                <h2>Updated Safety Requirements</h2>
+                <div class="time-stamp">2 days ago</div>
+            </div>
+            <div class="article-one">
+                <p>With consideration to the new safety mandates, it's important to know that you needto wear a mask prior to entry. In addition, please make sure to make an appointment via our page.</p>
+            </div>
+        </div>
+        <div class="news-two">
+            <div class="headline-two">
+                <h2>Holiday Hours</h2>
+                <div class="time-stamp">2 days ago</div>
+            </div>
+            <div class="article-two">
+                <p>Happy Holidays! With that said, we'll be closed on Christmas and New Years. We'll be open December 24th (Christmas Eve day) with adjusted hours until 12pm.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Appointment Form-->
+
+    <div class="container-2">
+        <div class="sub-one">
+            <form class="appointments"><!-- May need to add a div to encase this form or switch this form to a div if it becomes problematic to style-->
+                <input type="text" label="name" id="name">
+                <input type="email" label="email" id="email">
+                <input type="tel" label="phone" id="phone">
+                <input type="radio" label="shave" id="service">
+                <input type="radio" label="haircut" id="service">
+                <input type="radio" label="dye" id="service">
+                <input type="datetime-local" label="date" id="date">
+                <input type="button" label="submit" id="submitButton" value="Submit">
+            </form>
+        </div>
+        <div class="sub-two"></div>
+    </div>
+    
+    <!--Hours of Operation and Map-->
+
+    <div class="container-3">
+        <div class="sub-three">
+            <ul>
+                <li id="day">
+                    <p>Sunday: Appointment Only</p>
+                </li>
+                <li id="day">
+                    <p>Monday: 9:00 a.m. - 5:00 p.m.</p>
+                </li>
+                <li id="day">
+                    <p>Tuesday: 9:00 a.m. - 5:00 p.m.</p>
+                </li>
+                <li id="day">
+                    <p>Wednesday: 9:00 a.m. - 5:00 p.m.</p>
+                </li>
+                <li id="day">
+                    <p>Thursday: 9:00 a.m. - 5:00 p.m.</p>
+                </li>
+                <li id="day">
+                    <p>Friday: 9:00 a.m. - 5:00 p.m.</p>
+                </li>
+                <li id="day">
+                    <p>Saturday: : 9:00 a.m. - 2:00 p.m.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="sub-four">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11872.653495311883!2d-87.70698219537736!3d41.93234064780749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcd7e16a687d3%3A0x148b2180bca4fd27!2sIHOP!5e0!3m2!1sen!2sus!4v1639705778731!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>
+                <h3>The Barbershop</h3>
+            </li>
+            <li>
+                <p>123 Fake Street, Chicago, IL 60622</p>
+            </li>
+            <li>
+                <p>(312)773-1234</p>
+            </li>
+            <li>
+                <p>thebarbershop@gmail.com</p>
+            </li>
+            <li>
+                <img src="facebook.jpg"><!--figure how to hyperlink this via widget-->
+            </li>
+            <li>
+                <img src="instagram.jpg"><!--figure how to hyperlink this via widget-->
+            </li>
+            <li>
+                <img src="twitter.jpg"><!--figure how to hyperlink this via widget-->
+            </li>
+            <li>
+                <p>2021 enriquep5</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="scripts/script.js"></script>    
+</body>
+</html>

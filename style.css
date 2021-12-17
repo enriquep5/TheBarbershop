@@ -1,0 +1,22 @@
+/* background image with a level of transparency and scroll property
+-nav bar should have scroll property 
+-containers should all be flex, ideally no grid
+-header and footers should share same design
+-backgrounds for each subsection with level of transparency 
+
+*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: "images/barbershopbg.jpg";
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+}
