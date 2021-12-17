@@ -12,12 +12,12 @@
     background-image: "images/barbershopbg.jpg";
 }
 
-ul {
+.navbar ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-li {
+.navbar ul li {
     list-style-type: none;
 }
