@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     background-image: "images/barbershopbg.jpg";
+    background-color: aquamarine;
 }
 
 .navbar ul {
@@ -18,6 +19,6 @@
     list-style-type: none;
 }
 
-.navbar ul li {
+ ul li {
     list-style-type: none;
 }
