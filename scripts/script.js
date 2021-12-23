@@ -33,7 +33,7 @@ let submitButton = document.getElementById('submitButton');
 function getInfo(e) {
   e.preventDefault()
 
-  if (nameBar.value === '' || nameBar.value == null || phone.value === '' || phone.value == null || email.value ==='' || email.value == null ) {
+  if (nameBar.value === '' || nameBar.value == null || phone.value === '' || phone.value == null || email.value ==='' || email.value == null || date.value ==='' || date.value == null) {
     alert('Please enter your information to make an appointment!')
   } 
 
